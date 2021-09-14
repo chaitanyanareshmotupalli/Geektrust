@@ -1,0 +1,112 @@
+.main-div{
+    margin: 10px;
+}
+
+.input-field{
+    width: 100%;
+    border: 1px solid #DFDFDF;
+    padding: 5px;
+}
+
+.header-row{
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.checkbox{
+    margin: 10px;
+}
+
+.headers{
+    font-family: monospace;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.result_name{
+    color: #262626;
+}
+
+.result_email{
+    color: #262626;
+}
+
+.result_role{
+    color: #262626;
+}
+
+.newDiv{
+    border-bottom: 1px solid #E4E4E4;
+    padding: 10px;
+}
+
+.icons_div{
+    width: 10%;
+    justify-content: space-evenly;
+}
+
+.editIcon{
+    color: black;
+}
+
+.deleteIcon{
+ color: red;
+}
+
+.footer{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.delete{
+    border-radius: 24px;
+    background-color: #FF5171;
+    color: antiquewhite;
+    border: #FF5171;
+    height: 6vh;
+    width: 25vh;
+    margin-top: 15px;
+}
+
+.delete:focus{
+    outline: none;
+}
+
+.pagination {
+    display: inline-block;
+    margin-left: 108px;
+}
+  
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.dimmy{
+   color: #C4C4C4 !important;
+   background-color: #F5F5F5 !important;
+}  
+
+.pagination a.active {
+    background-color: white;
+    color: #5FB2FF;
+}
+  
+.pagination a{
+    color: white;
+    border-radius: 25px;
+    border-color: #5FB2FF;
+    background-color: #1890FF;
+    margin: 10px;
+}
+
+.pagination a:hover {
+    background-color: white;
+    color: #5FB2FF;
+}
